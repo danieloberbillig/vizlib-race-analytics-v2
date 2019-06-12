@@ -3,12 +3,14 @@ $(document).ready(function () {
     swipeable: true,
     responsiveThreshold: 1920
   });
-
+  
   $('.collapsible').collapsible();
-
+  
   $('.scrollspy').scrollSpy({
     scrollOffset: 0
   });
+  
+  $('.parallax').parallax();
 
   // $('.pushpin').pushpin();
 });
