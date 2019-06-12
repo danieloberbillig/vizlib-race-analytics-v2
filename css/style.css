@@ -9,7 +9,7 @@ font-family: 'Lato', sans-serif;
 */
 
 body {
-    width: 800px;
+    /* width: 800px; */
     margin: auto;
 }
 
@@ -80,14 +80,63 @@ article>h1.action {
 }
 
 
-/* #fastestLap {
+/* =================================================== */
+/* SCROLLSPY */
+#scrollspy {
+        width: 160px; 
+        position: fixed; 
+        z-index: 1; /* Stay on top */
+        top: 30%; 
+        right: 0;
+        overflow-x: hidden; /*Disable horizontal scroll */
+}
+
+
+/* =================================================== */
+/* NOT WORKING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* PUSHPIN (qlik selection always on top) */
+ /* Only necessary for window height sized blocks. */
+  html, body, .pushpinElm {
     height: 100%;
-}  */
-/* iframe {
-    position: absolute;
-    background-color: red;
-} */
-/* div.single-object #content {
-    padding: 0 !important;
-    margin: 0 !important;
-} */
+  }
+
+   /* Class for when element is above threshold */
+  .pin-top {
+    position: relative;
+  }
+
+   /* Class for when element is below threshold */
+  .pin-bottom {
+    position: relative;
+  }
+
+   /* Class for when element is pinned */
+  .pinned {
+    position: fixed !important;
+  }
+  /* ------------------------------------------------- */
+
+/* ABOVE NOT WORKING */
+/* USE THIS INSTEAD */
+  /* fixedHeaderOnScroll */
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .fixedHeaderOnScroll {
+      z-index: 1;
+      background-color: grey;
+      overflow: hidden;
+      height: 38px;
+  }
+
+  /* <div style="border: 3px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 736px;">
+  style="border: 0px none; margin-left: -185px; height: 859px; margin-top: -533px; width: 926px;"> */
+ 
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* height: 100%; */
+  }
+  
+  
