@@ -138,7 +138,7 @@ html, body, .pushpinElm {
     z-index: 1;
     background-color: grey;
     overflow: hidden;
-    max-height: 46px;
+    height: 38px;
     max-width: 100%;
     /* border-radius: 10px; */
     background-color: rgb(75, 68, 68);
@@ -152,7 +152,7 @@ html, body, .pushpinElm {
 }
 
 #companyLogos {
-    background-color: red;
+    /* background-color: red; */
     height: 100%;
     padding: 100px;
 }
@@ -169,3 +169,119 @@ html, body, .pushpinElm {
     /* padding-top: 10px; */
     /* border-top: 0.5px solid grey; */
 }
+
+/* --------------------------------------------- */
+
+/* C1 WEBSITE HEADER */
+
+.c1websiteHeader-top {
+    min-height: 30px;
+    margin-bottom: -1;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    display: block;
+    color: black;
+}
+
+.c1websiteHeader-top::selection {
+    background-color: #dd3333;
+    color: #ffffff;
+}
+
+.c1websiteHeader-middle {
+    clear: both;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.c1websiteHeader-middle nav ul li {
+    height: 70px;
+    line-height: 70px;
+    color: #7d7d7d;
+}
+
+.c1websiteHeader-middle a {
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+    display: block;
+    text-decoration: none;
+    /* padding: 0 13px; */
+    /* font-weight: normal;
+    font-size: 12px; */
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.c1websiteHeader-middle>nav>ul>li>a::selection {
+    background-color: #dd3333;
+    color: #ffffff;
+}
+
+/* OVERRIDE MATERIALIZECSS THEME */
+
+nav {
+    background-color: white;
+    box-shadow: none;
+    /* display: block; */
+}
+
+.c1websiteHeader-middle a:hover {
+    background-color: #dd3333;
+    color: #ffffff;
+}
+
+nav>ul>li>a {
+    color: #7d7d7d;
+}
+
+a>span {
+    border-left: solid #d1d1d1 1px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.forum {
+    border-left: none;
+}
+
+#c1websiteHeader-logo {
+    float: left;
+    margin-right: 80px;
+}
+
+.c1websiteHeader-lower {
+    background-color: #191919;
+    color: #ffffff;
+    border-color: #444444;
+    vertical-align: baseline;
+    height: 57px;
+    position: relative;
+}
+
+.c1websiteHeader-lower>h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    margin-left: 100px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.c1websiteHeader-lower>p {
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+/* --------------------------------------------- */
