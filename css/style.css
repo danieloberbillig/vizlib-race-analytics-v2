@@ -4,21 +4,16 @@ font-family: 'Lato', sans-serif;
 font-family: 'Oswald', sans-serif;
 */
 
-
 * {
     margin: 0;
     padding: 0;
 }
 
-
 .gridContainer {
-    display: grid;    
-    grid-template-columns: 9% 68% 14% 9% ;
+    display: grid;
+    grid-template-columns: 9% 68% 14% 9%;
     grid-template-rows: auto;
-    grid-template-areas: 
-        "top top top top"
-        "leftSpace main aside rightSpace"
-        "footer footer footer footer";
+    grid-template-areas: "top top top top" "leftSpace main aside rightSpace" "footer footer footer footer";
 }
 
 .gridItem-top {
@@ -53,12 +48,11 @@ font-family: 'Oswald', sans-serif;
     grid-area: rightSpace;
 }
 
-
 h1.mainTitle {
     padding-left: 10px;
     font-family: 'Oswald', sans-serif;
     /* font-family: 'Roboto', sans-serif; */
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 .flexContainer.selectCircuit {
@@ -87,6 +81,41 @@ h1.mainTitle {
     border: none !important;
 }
 
+/* ===================================================== */
+
+/* STATS */
+.statsSheet {
+    height: 700px;
+    width: 800px;
+}
+
+
+.flexContainer-stats-1 {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 500px;
+    width: 800px;
+}
+
+.stats-left-elm {
+    flex: 0 1 auto;
+}
+
+.stats-right-elm {
+    flex: 0 1 auto;
+    width: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    /* align-items: flex-end; */
+    justify-content: flex-start;
+}
+
+.stats-right-elm>* {
+    height: 10px;
+    margin: 0;
+    padding: 0;
+}
+
 /* ================================================== */
 
 .seperator {
@@ -94,10 +123,20 @@ h1.mainTitle {
     border-bottom: .5px solid lightgrey;
 }
 
+#welcome {
+    margin: 10px 0 0 13px;
+    
+}
+
+#welcome > h1 {
+    font-size: 1.4em;
+    margin-top: 50px;
+}
+
 /* top header of each article */
 
 article>h1.title {
-    margin: 40px 0 30px 0;
+    margin: 30px 0 30px 0;
     font-family: 'Lato', sans-serif;
     font-size: 1.8em;
     padding: 0 0 0 10px;
@@ -123,7 +162,9 @@ article>h1.action {
 /* =================================================== */
 
 /* SCROLLSPY */
+
 /* position fixed is actually not inside the aside (visually) */
+
 #scrollspy {
     width: 160px;
     position: fixed;
@@ -279,7 +320,7 @@ nav>ul>li>a {
     color: #7d7d7d;
 }
 
-ul > li > a > span {
+ul>li>a>span {
     border-left: solid #d1d1d1 1px;
     vertical-align: baseline;
     box-sizing: border-box;
@@ -327,21 +368,20 @@ ul > li > a > span {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
 /* --------------------------------------------- */
 
-
-
 /* ================================================= */
+
 /* MEDIA QUERIES */
 
 /* hide scrollspy */
-@media only screen and (max-width: 900px) {
-    
-   #scrollspy {
-       visibility: hidden;
-   } 
 
-   .gridItem-aside {
-       border: none;
-   }
-  }
+@media only screen and (max-width: 900px) {
+    #scrollspy {
+        visibility: hidden;
+    }
+    .gridItem-aside {
+        border: none;
+    }
+}

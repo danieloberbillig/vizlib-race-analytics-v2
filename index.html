@@ -28,15 +28,8 @@
 </head>
 
 <body>
-
     <div class="gridContainer">
-
         <div class="gridItem-top">
-
-
-
-
-
 
             <!-- ------------------------------------------------------------------------- -->
             <!-- HEADER OF C1 RACING WEBSITE -->
@@ -61,6 +54,7 @@
 
                 </div>
                 <div class="c1websiteHeader-lower">
+
                     <h1>RACE ANALYTICS</h1>
                     <p>You are here: Home / Race Analytics</p>
                 </div>
@@ -84,336 +78,332 @@
 
         <div class="gridItem-main">
 
-            <h1 class="mainTitle">Race Analytics</h1>
+            <div class="row"></div>
+            <h1 class="mainTitle section scrollspy" id="start">Race Analytics</h1>
             <img id="companyLogosRow" src="asset/image/raceAnalyticsLogos_row.png">
 
 
             <!-- ================================================================ -->
-            <!-- SCROLLSPY TEST -->
-            <!-- <article>
-        <div class="row">
-            <div class="col s12 m9 l10">
-                <article id="introduction" class="section scrollspy">
-                    <p>Content </p>
-                </article>
-
-                <article id="structure" class="section scrollspy">
-                    <p>Content </p>
-                </article>
-
-                <article id="initialization" class="section scrollspy">
-                    <p>Content </p>
-                </article>
-            </div>
-            <div class="col hide-on-small-only m3 l2">
-                <ul class="section table-of-contents">
-                    <li><a href="#introduction">Select circuit</a></li>
-                    <li><a href="#structure">Driver stats</a></li>
-                    <li><a href="#initialization">Fastest lap</a></li>
-                </ul>
-            </div>
-        </div>
-    </article> -->
-            <!-- ================================================================ -->
-
             <!-- SCROLLSPY start -->
-            <div class="row">
-                <!-- <div class="col s12 m9 l10"> -->
-                <!-- <div class="col s12 m9 l10"> -->
-
-                <!-- FIXED HEADER WITH SELECTION BAR -->
 
 
-                <!-- CONTENT -->
-               
-                <!-- ======================================================================================== -->
-                <!-- 1) Select circuit & race -->
+            <!-- CONTENT -->
+            <article id="welcome">
+                <!-- <h1>Welcome to the Race Analytics of the C1 Racing Club</h1> -->
+                <p>
+                    The C1 Racing Club is proud to present the following visualisations in close collaboration with
+                    Vizlib, powered by Qlik Sense.
+                </p>
+                <p>
+                    You will find two or more tabs on each section that allows you to explore different aspects of the
+                    race.
+                </p>
+                <p>
+                    Please note, that it may take a while to load all elements on this page for the first time.
+                </p>
 
-                <article id="selectCircuit" class="section scrollspy">
-                    <h1 class="action">Please select a circuit and race.</h1>
-                    <div class="flexContainer selectCircuit">
-                        <!-- map -->
-                        <div class="map">
-                            <iframe
-                                src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=bzcjFE&select=clearall'
-                                style='border:none;width:100%;height:100%;'></iframe>
-                        </div>
+                <br>
+                <p>
+                    Enjoy your journey through the 2019 racing season.
+                </p>
+            </article>
+            <!-- ======================================================================================== -->
+            <!-- 1) Select circuit & race -->
 
-                        <!-- circuit -->
-                        <div class="filter-1">
-                            <iframe
-                                src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=meJeg&select=clearall'
-                                style='border:none;width:100%;height:100%;'></iframe>
-                        </div>
-
-                        <!-- race -->
-                        <div class="filter-2">
-                            <iframe
-                                src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=jysp&select=clearall'
-                                style='border:none;width:100%;height:100%;'></iframe>
-                        </div>
+            <article id="selectCircuit" class="section scrollspy">
+                <h1 class="action">Please select a circuit and race.</h1>
+                <div class="flexContainer selectCircuit">
+                    <!-- map -->
+                    <div class="map">
+                        <iframe
+                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=bzcjFE&select=clearall'
+                            style='border:none;width:100%;height:100%;'></iframe>
                     </div>
-                </article>
 
-                <!-- TODO: PARALAX NOT WORKING -->
-                <!-- <div class="parallax-container">
+                    <!-- circuit -->
+                    <div class="filter-1">
+                        <iframe
+                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=meJeg&select=clearall'
+                            style='border:none;width:100%;height:100%;'></iframe>
+                    </div>
+
+                    <!-- race -->
+                    <div class="filter-2">
+                        <iframe
+                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=jysp&select=clearall'
+                            style='border:none;width:100%;height:100%;'></iframe>
+                    </div>
+                </div>
+            </article>
+
+            <!-- TODO: PARALAX NOT WORKING -->
+            <!-- <div class="parallax-container">
                 <div class="parallax">
                     <img id="companyLogos" src="asset/image/raceAnalyticsLogos.png" >
                 </div>
             </div> -->
 
-                <!-- <div class="parallax-container">
+            <!-- <div class="parallax-container">
                 <div class="parallax">
                     <img src="asset/image/parallax1.jpg">
                 </div>
             </div> -->
 
-                <!-- ======================================================================================== -->
-                <!-- 2) Session stats -->
+            <!-- ======================================================================================== -->
+            <!-- 2) Session stats -->
 
-                <div class="seperator">
-                    <!-- layout seperator -->
-                </div>
-
-                <article id="positionAnalysis" class="section scrollspy">
-                    <h1 class="title">Position analysis</h1>
-
-                    <ul id="tabs-swipe-demo" class="tabs">
-                        <li class="tab col s3"><a class="active" href="#swipe-1-pos">Chart</a></li>
-                        <li class="tab col s3"><a href="#swipe-2-pos">Detail</a></li>
-                    </ul>
-                    <div id="swipe-1-pos" class="col s12">
-                        <iframe
-                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=d5e39d07-e05b-4661-984c-db423100cbb3&select=clearall'
-                            style='border:none;width:100%;height:100%;'></iframe>
-                    </div>
-                    <div id="swipe-2-pos" class="col s12">
-
-                    </div>
-
-                </article>
-
-                <!-- ======================================================================================== -->
-                <!-- 3) Driver performance -->
-
-                <div class="seperator">
-                    <!-- layout seperator -->
-                </div>
-
-                <article id="consistentDriver" class="section scrollspy">
-                    <h1 class="title">Driver performance consistency</h1>
-
-                    <ul id="tabs-swipe-demo" class="tabs">
-                        <li class="tab col s3"><a class="active" href="#swipe-1">Chart</a></li>
-                        <li class="tab col s3"><a href="#swipe-2">Details</a></li>
-                        <!-- <li class="tab col s3"><a href="#swipe-3">Test 3</a></li> -->
-                    </ul>
-                    <div id="swipe-1" class="col s12">
-                        <iframe id="scatter1"
-                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=ZbZDX&select=clearall'
-                            style='border:none;width:100%;height:100%;'></iframe>
-                    </div>
-                    <div id="swipe-2" class="col s12">
-                        <iframe id="table1"
-                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=yHPnXav&select=clearall'
-                            style='border:none;width:100%;height:100%;'></iframe>
-                    </div>
-                    <!-- <div id="swipe-3" class="col s12">Third tab content</div> -->
-                </article>
-
-
-                <!-- ======================================================================================== -->
-                <!-- 4) Fastest Lap per session -->
-                <div class="seperator">
-                    <!-- layout seperator -->
-                </div>
-
-                <article id="fastestLap" class="section scrollspy">
-                    <h1 class="title">Fastest lap per session</h1>
-
-                    <ul id="tabs-swipe-demo" class="tabs">
-                        <li class="tab col s3"><a class="active" href="#swipe-fastest-1">Team</a></li>
-                        <li class="tab col s3"><a href="#swipe-fastest-2">Driver</a></li>
-                        <li class="tab col s3"><a href="#swipe-fastest-3">Car</a></li>
-                        <li class="tab col s3"><a href="#swipe-fastest-4">Details</a></li>
-                        <!-- <li class="tab col s3"><a href="#swipe-3">Test 3</a></li> -->
-                    </ul>
-                    <div id="swipe-fastest-1" class="col s12">
-                        <iframe
-                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=sunrrPR&select=clearall'
-                            style='border:none;width:100%;height:100%;'></iframe>
-                    </div>
-
-                    <div id="swipe-fastest-2" class="col s12">
-                        <iframe
-                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=KCfucJj&select=clearall'
-                            style='border:none;width:100%;height:100%;'></iframe>
-                    </div>
-
-                    <div id="swipe-fastest-3" class="col s12">
-                        <iframe
-                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=dzXkG&select=clearall'
-                            style='border:none;width:100%;height:100%;'></iframe>
-                    </div>
-
-                    <div id="swipe-fastest-4" class="col s12">
-                        <ul class="collapsible">
-                            <li>
-                                <div class="collapsible-header"><i class="material-icons">group</i>Team</div>
-                                <div class="collapsible-body"><span>
-                                        <iframe
-                                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=a80905c9-b4c8-46fe-9a1b-2d641afeb34b&select=clearall'
-                                            style='border:none;width:100%;height:100%;'></iframe>
-                                    </span></div>
-                            </li>
-                            <li>
-                                <div class="collapsible-header"><i class="material-icons">person</i>Driver</div>
-                                <div class="collapsible-body"><span>
-                                        <iframe
-                                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=fd965c20-fddf-4b70-aff3-e82da3154635&select=clearall'
-                                            style='border:none;width:100%;height:100%;'></iframe>
-                                    </span></div>
-                            </li>
-                            <li>
-                                <div class="collapsible-header"><i class="material-icons">directions_car</i>Car
-                                </div>
-                                <div class="collapsible-body"><span>
-                                        <iframe
-                                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=8a0a4c10-33b4-41fd-87d2-e6ad651b33bb&select=clearall'
-                                            style='border:none;width:100%;height:100%;'></iframe>
-                                    </span></div>
-                            </li>
-                        </ul>
-
-
-
-
-
-
-                    </div>
-                </article>
-
-
-
-
-                <!-- ======================================================================================== -->
-                <!-- 5) Pit stop analysis -->
-
-                <div class="seperator">
-                    <!-- layout seperator -->
-                </div>
-
-                <article id="pitstop" class="section scrollspy">
-                    <h1 class="title">Pit stop analysis</h1>
-
-                    <ul id="tabs-swipe-demo" class="tabs">
-                        <li class="tab col s3"><a class="active" href="#swipe-1-pit">Driver changeover</a></li>
-                        <li class="tab col s3"><a href="#swipe-2-pit">Pit stop timing</a></li>
-                        <li class="tab col s3"><a href="#swipe-3-pit">Total stop time by car</a></li>
-                    </ul>
-                    <div id="swipe-1-pit" class="col s12">
-                        <iframe
-                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=b73fdadc-fff0-4fac-a3a6-61ac37086148&select=clearall'
-                            style='border:none;width:100%;height:100%;'></iframe>
-                    </div>
-                    <div id="swipe-2-pit" class="col s12">
-                        <iframe
-                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=3e4815f2-4135-4a1e-b6a8-d43217ff9fcb&select=clearall'
-                            style='border:none;width:100%;height:100%;'></iframe>
-                    </div>
-                    <div id="swipe-3-pit" class="col s12">
-                        <iframe
-                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=8aace642-ef01-43c5-aa76-f8fce5f5c80a&select=clearall'
-                            style='border:none;width:100%;height:100%;'></iframe>
-                    </div>
-                </article>
-
-
-                <!-- ======================================================================================== -->
-                <!-- 6) Safety car session -->
-
-                <div class="seperator">
-                    <!-- layout seperator -->
-                </div>
-
-                <article id="safetycar" class="section scrollspy">
-                    <h1 class="title">Safety car session</h1>
-
-                    <ul id="tabs-swipe-demo" class="tabs">
-                        <li class="tab col s3"><a class="active" href="#swipe-1-saf">Chart</a></li>
-                        <li class="tab col s3"><a href="#swipe-2-saf">Detail</a></li>
-                    </ul>
-                    <div id="swipe-1-saf" class="col s12">
-                        <iframe
-                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=sqfvKmC&select=clearall'
-                            style='border:none;width:100%;height:100%;'></iframe>
-                    </div>
-                    <div id="swipe-2-saf" class="col s12">
-
-                    </div>
-
-                </article>
-
-
-                <!-- ======================================================================================== -->
-                <!-- 7) Position Analysis -->
-
-                <div class="seperator">
-                    <!-- layout seperator -->
-                </div>
-
-                <article id="positionAnalysis" class="section scrollspy">
-                    <h1 class="title">Position analysis</h1>
-
-                    <ul id="tabs-swipe-demo" class="tabs">
-                        <li class="tab col s3"><a class="active" href="#swipe-1-pos">Chart</a></li>
-                        <li class="tab col s3"><a href="#swipe-2-pos">Detail</a></li>
-                    </ul>
-                    <div id="swipe-1-pos" class="col s12">
-                        <iframe
-                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=d5e39d07-e05b-4661-984c-db423100cbb3&select=clearall'
-                            style='border:none;width:100%;height:100%;'></iframe>
-                    </div>
-                    <div id="swipe-2-pos" class="col s12">
-
-                    </div>
-
-                </article>
-
-                <!-- ======================================= -->
-                <!-- TODO REMOVE; PLACEHOLDER -->
-                <div class="seperator">
-                    <!-- layout seperator -->
-                </div>
-                <article id="nextLap" class="section scrollspy">
-                    <h1 class="title">next chapter</h1>
-                </article>
-
-
-
-                <!-- END CONTENT BLOCK -->
+            <div class="seperator">
+                <!-- layout seperator -->
             </div>
 
-        </div>
-        <!-- GRID ITEM - MAIN END -->
+            <article id="sessionStats" class="section scrollspy">
+                <h1 class="title">Session statistics</h1>
 
-        <!-- actually position:fixed is not inside the aside grid item -->
-        <div class="gridItem-aside">
-            <!-- SCROLLSPY ELEMENT -->
-            <aside id="scrollspy">
-                <!-- <aside id="scrollspy" class="col hide-on-small-only m3 l2"> -->
-                <ul class="section table-of-contents">
-                    <li><a href="#selectCircuit">Select circuit</a></li>
-                    <li><a href="#consistentDriver">Driver performance</a></li>
-                    <li><a href="#fastestLap">Fastest lap</a></li>
-                    <li><a href="#pitstop">Pit stop</a></li>
-                    <li><a href="#safetycar">Safety car session</a></li>
-                    <li><a href="#positionAnalysis">Position analysis</a></li>
+                <ul id="tabs-swipe-demo" class="tabs">
+                    <li class="tab col s3"><a class="active" href="#swipe-1-stats">General</a></li>
+                    <li class="tab col s3"><a href="#swipe-2-stats">Podium</a></li>
                 </ul>
-            </aside>
+                <div id="swipe-1-stats" class="col s12">
+                    <div class="statsSheet">
+                        <iframe
+                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&sheet=23f65bd4-908d-4860-9f97-8f99707d6032&opt=nointeraction&select=clearall'
+                            style='border:none;width:100%;height:100%;'></iframe>
+                    </div>
+                </div>
 
+                <div id="swipe-2-stats" class="col s12">
+                    <div class="statsSheet">
+                        <iframe
+                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&sheet=8883d9bf-9645-4355-990e-afe5c093532a&opt=nointeraction'
+                            style='border:none;width:100%;height:100%;'></iframe>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </article>
+
+            <!-- ======================================================================================== -->
+            <!-- 3) Driver performance -->
+
+            <div class="seperator">
+                <!-- layout seperator -->
+            </div>
+
+            <article id="consistentDriver" class="section scrollspy">
+                <h1 class="title">Driver performance consistency</h1>
+
+                <ul id="tabs-swipe-demo" class="tabs">
+                    <li class="tab col s3"><a class="active" href="#swipe-1">Chart</a></li>
+                    <li class="tab col s3"><a href="#swipe-2">Details</a></li>
+                    <!-- <li class="tab col s3"><a href="#swipe-3">Test 3</a></li> -->
+                </ul>
+                <div id="swipe-1" class="col s12">
+                    <iframe id="scatter1"
+                        src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=ZbZDX&select=clearall'
+                        style='border:none;width:100%;height:100%;'></iframe>
+                </div>
+                <div id="swipe-2" class="col s12">
+                    <iframe id="table1"
+                        src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=yHPnXav&select=clearall'
+                        style='border:none;width:100%;height:100%;'></iframe>
+                </div>
+                <!-- <div id="swipe-3" class="col s12">Third tab content</div> -->
+            </article>
+
+
+            <!-- ======================================================================================== -->
+            <!-- 4) Fastest Lap per session -->
+            <div class="seperator">
+                <!-- layout seperator -->
+            </div>
+
+            <article id="fastestLap" class="section scrollspy">
+                <h1 class="title">Fastest lap per session</h1>
+
+                <ul id="tabs-swipe-demo" class="tabs">
+                    <li class="tab col s3"><a class="active" href="#swipe-fastest-1">Team</a></li>
+                    <li class="tab col s3"><a href="#swipe-fastest-2">Driver</a></li>
+                    <li class="tab col s3"><a href="#swipe-fastest-3">Car</a></li>
+                    <li class="tab col s3"><a href="#swipe-fastest-4">Details</a></li>
+                </ul>
+                <div id="swipe-fastest-1" class="col s12">
+                    <iframe
+                        src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=sunrrPR&select=clearall'
+                        style='border:none;width:100%;height:100%;'></iframe>
+                </div>
+
+                <div id="swipe-fastest-2" class="col s12">
+                    <iframe
+                        src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=KCfucJj&select=clearall'
+                        style='border:none;width:100%;height:100%;'></iframe>
+                </div>
+
+                <div id="swipe-fastest-3" class="col s12">
+                    <iframe
+                        src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=dzXkG&select=clearall'
+                        style='border:none;width:100%;height:100%;'></iframe>
+                </div>
+
+                <div id="swipe-fastest-4" class="col s12">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">group</i>Team</div>
+                            <div class="collapsible-body"><span>
+                                    <iframe
+                                        src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=a80905c9-b4c8-46fe-9a1b-2d641afeb34b&select=clearall'
+                                        style='border:none;width:100%;height:100%;'></iframe>
+                                </span></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">person</i>Driver</div>
+                            <div class="collapsible-body"><span>
+                                    <iframe
+                                        src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=fd965c20-fddf-4b70-aff3-e82da3154635&select=clearall'
+                                        style='border:none;width:100%;height:100%;'></iframe>
+                                </span></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">directions_car</i>Car
+                            </div>
+                            <div class="collapsible-body"><span>
+                                    <iframe
+                                        src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=8a0a4c10-33b4-41fd-87d2-e6ad651b33bb&select=clearall'
+                                        style='border:none;width:100%;height:100%;'></iframe>
+                                </span></div>
+                        </li>
+                    </ul>
+
+
+
+
+
+
+                </div>
+            </article>
+
+
+
+
+            <!-- ======================================================================================== -->
+            <!-- 5) Pit stop analysis -->
+
+            <div class="seperator">
+                <!-- layout seperator -->
+            </div>
+
+            <article id="pitstop" class="section scrollspy">
+                <h1 class="title">Pit stop analysis</h1>
+
+                <ul id="tabs-swipe-demo" class="tabs">
+                    <li class="tab col s3"><a class="active" href="#swipe-1-pit">Driver changeover</a></li>
+                    <li class="tab col s3"><a href="#swipe-2-pit">Pit stop timing</a></li>
+                    <li class="tab col s3"><a href="#swipe-3-pit">Total stop time by car</a></li>
+                </ul>
+                <div id="swipe-1-pit" class="col s12">
+                    <iframe
+                        src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=b73fdadc-fff0-4fac-a3a6-61ac37086148&select=clearall'
+                        style='border:none;width:100%;height:100%;'></iframe>
+                </div>
+                <div id="swipe-2-pit" class="col s12">
+                    <iframe
+                        src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=3e4815f2-4135-4a1e-b6a8-d43217ff9fcb&select=clearall'
+                        style='border:none;width:100%;height:100%;'></iframe>
+                </div>
+                <div id="swipe-3-pit" class="col s12">
+                    <iframe
+                        src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=8aace642-ef01-43c5-aa76-f8fce5f5c80a&select=clearall'
+                        style='border:none;width:100%;height:100%;'></iframe>
+                </div>
+            </article>
+
+
+            <!-- ======================================================================================== -->
+            <!-- 6) Safety car session -->
+
+            <div class="seperator">
+                <!-- layout seperator -->
+            </div>
+
+            <article id="safetycar" class="section scrollspy">
+                <h1 class="title">Safety car session</h1>
+
+                <ul id="tabs-swipe-demo" class="tabs">
+                    <li class="tab col s3"><a class="active" href="#swipe-1-saf">Chart</a></li>
+                    <li class="tab col s3"><a href="#swipe-2-saf">Detail</a></li>
+                </ul>
+                <div id="swipe-1-saf" class="col s12">
+                    <iframe
+                        src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=sqfvKmC&select=clearall'
+                        style='border:none;width:100%;height:100%;'></iframe>
+                </div>
+                <div id="swipe-2-saf" class="col s12">
+
+                </div>
+
+            </article>
+
+
+            <!-- ======================================================================================== -->
+            <!-- 7) Position Analysis -->
+
+            <div class="seperator">
+                <!-- layout seperator -->
+            </div>
+
+            <article id="positionAnalysis" class="section scrollspy">
+                <h1 class="title">Position analysis</h1>
+
+                <ul id="tabs-swipe-demo" class="tabs">
+                    <li class="tab col s3"><a class="active" href="#swipe-1-pos">Chart</a></li>
+                    <li class="tab col s3"><a href="#swipe-2-pos">Detail</a></li>
+                </ul>
+                <div id="swipe-1-pos" class="col s12">
+                    <iframe
+                        src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=d5e39d07-e05b-4661-984c-db423100cbb3&select=clearall'
+                        style='border:none;width:100%;height:100%;'></iframe>
+                </div>
+                <div id="swipe-2-pos" class="col s12">
+
+                </div>
+
+            </article>
+
+            <!-- ======================================= -->
+            <!-- TODO REMOVE; PLACEHOLDER -->
+            <!-- <div class="seperator"> -->
+                <!-- layout seperator -->
+            <!-- </div> -->
+            <!-- <article id="nextLap" class="section scrollspy">
+                <h1 class="title">next chapter</h1>
+            </article> -->
+
+
+
+            <!-- END CONTENT BLOCK -->
         </div>
-        <!-- SCROLLSPY END -->
+
+    </div>
+    <!-- GRID ITEM - MAIN END -->
+
+    <!-- actually position:fixed is not inside the aside grid item -->
+    <div class="gridItem-aside">
+        <!-- SCROLLSPY ELEMENT -->
+        <aside id="scrollspy">
+            <!-- <aside id="scrollspy" class="col hide-on-small-only m3 l2"> -->
+            <ul class="section table-of-contents">
+                <li><a href="#start">Start</a></li>
+                <li><a href="#selectCircuit">Select race</a></li>
+                <li><a href="#sessionStats">Session statistics</a></li>
+                <li><a href="#consistentDriver">Driver performance</a></li>
+                <li><a href="#fastestLap">Fastest lap</a></li>
+                <li><a href="#pitstop">Pit stop</a></li>
+                <li><a href="#safetycar">Safety car session</a></li>
+                <li><a href="#positionAnalysis">Position analysis</a></li>
+            </ul>
+        </aside>
+
+    </div>
+    <!-- SCROLLSPY END -->
 
     </div>
     <!-- GRID ITEM ASIDE END -->
