@@ -16,21 +16,7 @@ $(document).ready(function () {
 });
 
 
-// -----------------------------------------
-// PUSHPIN (qlik selection always on top)
-// $('.pushpin').each(function() {
-//   var $this = $(this);
-//   var $target = $('#' + $(this).attr('data-target'));
-//   $this.pushpin({
-//     top: $target.offset().top,
-//     bottom: $target.offset().top + $target.outerHeight() - $this.height()
-//   });
-// });
 
-
-// /* ABOVE NOT WORKING */
-// /* USE THIS INSTEAD */
-  // /* fixedHeaderOnScroll */
 
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function() {myFunction()};
