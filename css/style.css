@@ -8,16 +8,48 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Lato', sans-serif;
 */
 
+.gridContainer {
+    display: grid;    
+    grid-template-columns: 8% 50% 34% 8% ;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "top top top top"
+        "leftSpace main aside rightSpace";
+}
+
+.gridItem-top {
+    grid-area: top;
+}
+
+.gridItem-leftSpace {
+    grid-area: leftSpace;
+}
+
+.gridItem-main {
+    grid-area: main;
+}
+
+.gridItem-aside {
+    grid-area: aside;
+}
+
+.gridItem-rightSpace {
+    grid-area: rightSpace;
+}
+
+
 body {
     /* width: 800px; */
-    margin: auto;
+    /* margin: auto; */
 }
 
 /* like qlik objects  */
 
 h1.mainTitle {
     padding-left: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    margin-top: 150px;
 }
 
 .flexContainer.selectCircuit {
@@ -252,6 +284,7 @@ a>span {
 #c1websiteHeader-logo {
     float: left;
     margin-right: 80px;
+    margin-left: 25px;
 }
 
 .c1websiteHeader-lower {
