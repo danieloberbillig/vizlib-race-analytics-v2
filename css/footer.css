@@ -1,0 +1,319 @@
+.do-standard-footer {
+    font-family: Roboto;
+    color: rgb(191, 191, 191);
+    background-color: rgb(89, 89, 89);
+    margin: 0;
+    padding: 0;
+    /* use page-container to ensure that footer is always on bottom */
+    /* position: absolute;
+    width: 100%;
+    bottom: 0; */
+}
+
+.do-standard-footer h1 {
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+.do-standard-footer h2 {
+    font-size: 0.7em;
+    font-style: normal;
+}
+
+.do-standard-footer p {
+    font-size: 0.7em;
+}
+
+.do-standard-footer ul {
+    padding: 0;
+}
+
+.do-standard-footer li {
+    list-style: none;
+    font-size: 0.7em;
+    margin-top: 10px;
+}
+
+.do-standard-footer a {
+    text-decoration: none;
+    color: rgb(191, 191, 191);
+}
+
+/* ------------------------------ */
+
+/* GRID LAYOUT */
+
+/* ------------------------------ */
+
+.do-standard-footer {
+    /* height: 310px; */
+    /* display: grid; */
+    /* grid-template-columns: 9% 68% 14% 9% ; */
+    /* /* grid-template-columns: 550px 50px 50px 50px; */
+    /* grid-template-rows: 100px; */
+    /* grid-gap: 2em; */
+    padding: 20px 0 20px 0;
+    /* grid-template-areas: "col1 col2 col3 col4" */
+    display: flex;
+}
+
+.col1 {
+    grid-area: "col1";
+    /* padding-right: 70px; */
+    text-align: left;
+    margin-left: 9%;
+    flex: 1;
+}
+
+.col2 {
+    /* grid-area: "col2"; */
+    flex: 1;
+}
+
+.col3 {
+    grid-area: "col3";
+    margin-right: 9%;
+    margin-top: 8px;
+    
+
+    /* flex: 1; */
+}
+
+/* .col4 {
+    grid-area: "col4";
+} */
+
+/* ------------------------------ */
+
+/* SPECIFIC LAYOUT */
+
+/* ------------------------------ */
+
+.col1>h1 {
+    margin: 0;
+}
+
+.col1>h2 {
+    margin-top: 3px;
+    margin-bottom: 0.2em;
+}
+
+.col1>h2 {
+    /* margin-bottom: 2.5em; */
+    font-weight: 300;
+    font-size: 0.6em;
+}
+
+.col1 p {
+    margin-top: 1em;
+    font-size: 0.5em;
+    line-height: 15px;
+}
+
+.col1 .socialMedia {
+    margin-top: 15px;
+    align-self: flex-end;
+}
+
+.socialMedia a {
+    margin: 0px 5px 0 0px;
+    padding: 0;
+    text-align: left;
+}
+
+#myWebsite {
+    margin: 0 5px 0 0px;
+    padding: 0;
+    text-align: left;
+    font-size: 0.7em;
+}
+
+.portrait {
+    height: 60px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.socialMedia>img {
+    /* margin-top: 30px; */
+    height: 20px;
+    width: 20px;
+}
+
+.socialMediaIcon>* {
+    font-size: 1.5em;
+    margin-right: 3px;
+}
+
+.contactForm>input, textarea {
+    width: 90%;
+    margin-top: 10px;
+    /* height: 25px; */
+    /* padding-left: 5px; */
+    /* padding-bottom: 15px; */
+    /* padding-bottom: 40px; */
+    background-color: rgb(191, 191, 191);
+    border: none;
+    font-size: 0.7em;
+}
+
+.contactForm #nameInput {
+    padding: 10px;
+}
+
+.contactForm #email {
+    padding: 10px;
+}
+
+.contactForm #message {
+    padding: 10px;
+    height: 120px;
+}
+
+.contactForm textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactForm #submitMessage {
+    font-size: 0.7em;
+    padding-top: 3px;
+    width: 98%;
+    text-align: right;
+    background-color: rgb(89, 89, 89);
+    border: none;
+    color: rgb(191, 191, 191);
+}
+
+.col2>h1 {
+    font-size: 0.8em;
+}
+
+.col3>h1 {
+    font-size: 0.8em;
+}
+
+.col4>h1 {
+    font-size: 0.8em;
+}
+
+/* ------------------------------ */
+
+/* CSS BREAKPOINTS */
+
+/* ------------------------------ */
+
+/* anything small: mobile first approach */
+
+/* Smartphones (portrait and landscape) ----------- */
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .do-standard-footer {
+        /* TESTING: */
+        /* background-color: grey;  */
+        height: 100%;
+        padding: 50px 15px 0 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "col1" "col2" "col3" "col4"
+    }
+    .do-standard-footer h1 {
+        font-size: 1em;
+    }
+    .do-standard-footer h2 {
+        font-size: 0.7em;
+    }
+    .do-standard-footer p {
+        font-size: 0.7em;
+    }
+    .do-standard-footer li {
+        font-size: 1em;
+    }
+    .col1 p {
+        line-height: 1.3em;
+    }
+    .portrait {
+        height: 100%;
+        float: left;
+        margin-right: 15px;
+        border-radius: 50%;
+    }
+    .imageAndText {
+        width: 85vw;
+    }
+    .socialMediaIcon>* {
+        margin-top: 20px;
+        /* font-size: 2.5em; */
+        margin-right: 5px;
+        margin: 0;
+        padding: 0;
+    }
+    .col1 {
+        margin: 0 0 25px 0;
+    }
+    .col1 .contact {
+        margin-top: 10px;
+       
+    }
+    .col2, .col3, .col4 {
+        text-align: left;
+    }
+    .col1 .contact p {
+        line-height: 7px;
+        margin: 0;
+        padding: 0;
+    }
+    .col5 {
+        width: 85vw;
+    }
+    .contactForm #submitMessage {
+        width: 81vw;
+    }
+    .bottom {
+        grid-area: "bottom";
+        /* width: 80vw; */
+        font-size: 0.8em;
+        /* margin-top: 60px; */
+        text-align: center;
+    }
+    .bottom p:nth-child(1) {
+        color: white;
+    }
+    .bottomFlexContainer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .love {
+        align-self: flex-end;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    /*  */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    /*  */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    /*  */
+}
+
+.vizlib-link {
+    text-decoration: underline;
+}
