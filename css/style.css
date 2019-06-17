@@ -287,6 +287,12 @@ html, body, .pushpinElm {
     display: block;
     background-color: #ffffff;
     color: #000000;
+
+    display: flex;
+}
+
+.rightSideIcons {
+    background-color: yellow;
 }
 
 .c1websiteHeader-middle nav ul li {
@@ -342,9 +348,12 @@ ul>li>a>span {
 }
 
 #c1websiteHeader-logo {
-    float: left;
-    margin-right: 80px;
+    /* float: left; */
+    /* margin-right: 80px; */
     margin-left: 25px;
+    
+    flex: 1;
+    height: 100%;
 }
 
 .c1websiteHeader-lower {
