@@ -387,6 +387,48 @@ ul>li>a>span {
     transform: translateY(-50%);
 }
 
+.searchIcon {
+    color: #7d7d7d;
+    font-size: 130%;
+}
+
+.cartIcon {
+    color: black;
+    font-size: 130%;
+}
+
+.socialIcon {
+    color: #7d7d7d;
+    font-size: 100%;
+}
+
+#youtubeIcon {
+    height: 18px;
+    color: #7d7d7d;
+}
+
+.socialBar {
+    text-align: right;
+    margin-right: 20px;
+    padding-top: 4px;
+}
+
+.socialBar a {
+    width: 29px;
+    height: 30px;
+    padding: 0 10px 0 5px;
+    border-right: .5px solid #d8d6d6;
+}
+
+/* TODO: NOT WORKING */
+.lastSocialItem {
+    border-right: none;
+}
+
+.socialBar li {
+    display: inline;
+}
+
 /* --------------------------------------------- */
 
 /* ================================================= */
