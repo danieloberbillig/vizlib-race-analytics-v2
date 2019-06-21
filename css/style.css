@@ -81,6 +81,29 @@ h1.mainTitle {
     border: none !important;
 }
 
+.fab.fa-youtube {
+    color: grey;
+}
+
+/* ===================================================== */
+
+/* PARALLAX VIZLIB */
+
+.parallax_vizlib {
+    padding-top: 100px;
+    opacity: 0.4;
+}
+
+#vizlibCompImg {
+    padding-top: 110px;
+}
+
+.parallax-container {
+    height: 250px;
+}
+
+/* ===================================================== */
+
 /* ===================================================== */
 
 /* STATS */
@@ -297,12 +320,10 @@ html, body, .pushpinElm {
     background-color: yellow;
 }
 
-
-
 .c1websiteHeader-middle nav ul li {
     height: 70px;
     line-height: 70px;
-    color: #7d7d7d;
+    /* color: #7d7d7d; */
 }
 
 .c1websiteHeader-middle a {
@@ -343,8 +364,8 @@ ul>li>a>span {
     border-left: solid #d1d1d1 1px;
     vertical-align: baseline;
     box-sizing: border-box;
-    padding-left: 15px;
-    text-align: center;
+    padding-left: 13px;
+    margin-left: -13px;
 }
 
 .forum {
@@ -352,29 +373,21 @@ ul>li>a>span {
 }
 
 #c1websiteHeader-logo {
-    /* float: left; */
-    /* margin-right: 80px; */
-    /* margin-left: 25px; */
-    /* margin-right: 100px; */
-    /* flex: 1; */
     max-height: 100%;
     max-width: 100%;
 }
 
 .logoImg {
-   height: 100%;
-   width: 500px;
+    height: 70px;
+    width: 500px;
     flex: 1;
+    margin-left: 25px;
 }
 
 .topBarMenu {
-    /* width: 100%; */
-    /* background-color: red; */
     text-align: right;
-    /* flex-grow: 3; */
     max-width: 800px;
-    /* Or whatever */
-    /* margin: auto;  */
+    margin-right: -80px;
 }
 
 .searchIcon>a>i, .basketIcon>a>i {
@@ -432,8 +445,12 @@ ul>li>a>span {
     font-size: 100%;
 }
 
+.youtubeIcon {
+    opacity: 0.5;
+}
+
 #youtubeIcon {
-    height: 18px;
+    height: 16px;
     color: #7d7d7d;
 }
 
@@ -459,6 +476,13 @@ ul>li>a>span {
 .socialBar li {
     display: inline;
 }
+
+
+.hideMe {
+    /* visibility: hidden; */
+    display: none;
+}
+
 
 /* --------------------------------------------- */
 

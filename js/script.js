@@ -38,3 +38,10 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+
+
+
+// HIDE PRE-LOADER AFTER SOME TIME
+$('.progress').delay(15000).queue(function(){
+  $(this).addClass("hideMe");
+});
