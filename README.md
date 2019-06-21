@@ -1,12 +1,10 @@
 # MOVE FASTER - Vizlib Race Analytics Championship
-* Competition entry submission, 14th June 2019 
-* Repo: vizlib-race-analytics
-* Author: Daniel Oberbillig
-* Started: 11/June/2019
+Vizlib Race competition entry submission 21st June 2019 
 
-## Screenshot
+## Preview
 ![start](/asset/screenshots/Vizlib_race_competition.gif?raw=true "Start")
 ---
+## Screenshot
 ![start](/asset/screenshots/Slide2.PNG?raw=true "Start")
 ---
 ![start](/asset/screenshots/Slide3.PNG?raw=true "Start")
@@ -14,6 +12,45 @@
 ![start](/asset/screenshots/Slide4.PNG?raw=true "Start")
 
 
+## Getting Started
+
+* copy Qlik Sense app 'C1 Racing Club - Vizlib.qvf' from binary folder to local Qlik sense app folder or import on Qlik Sense server via QMC
+* copy folder of circuit images from folder 'asset\circuits to following Qlik directory (case-sensitive):
+'Content\Default\vizlib-race-analytic\circuits'
+
+### Prerequisites
+
+* copy Qlik Sense app from binary folder to local Qlik sense app folder or import on Qlik Sense server via QMC
+```
+C1 Racing Club - Vizlib.qvf
+```
+ 
+* copy folder of circuit images from folder 
+```
+asset\circuits
+```
+to following Qlik directory (case-sensitive):
+```
+Content\Default\vizlib-race-analytic\circuits
+```
+
+
+### Installing
+
+Open live server.
+
+Entry point:
+
+```
+index.html
+```
+
+
+## Built With
+
+* [Qlik Sense](https://www.qlik.com/us/products/qlik-sense) - Analytic platform
+* [Vizlib](https://home.vizlib.com/) - Advanced data visualisations 
+* [Materialize](https://materializecss.com/) - Front-End framework
 
 ## Extensions used
 * Vizlib - Advanced Text Object
@@ -22,15 +59,14 @@
 * Ralf Becher - BI-Irregular-Image: https://github.com/ralfbecher/QlikSense_Extension_Image
 
 
-## Getting started
-### Qlik Sense
-* copy Qlik Sense app 'C1 Racing Club - Vizlib.qvf' from binary folder to local Qlik sense app folder or import on Qlik Sense server via QMC
-* copy folder of circuit images from folder 'asset\circuits to following Qlik directory (case-sensitive):
-'Content\Default\vizlib-race-analytic\circuits'
+## Authors
+
+* **Daniel Oberbillig** - [Daniel Oberbillig BI Development](http://danieloberbillig.com/)
 
 
-### Web app
-* open live server; entry point: index.html
+## License
+
+This project is licensed under the MIT License.
 
 
 ---
