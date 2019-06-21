@@ -82,8 +82,8 @@ This project is licensed under the MIT License.
 ![start](/asset/screenshots/Slide9.PNG?raw=true "Start")
 
 ---
-## To do / Outlook:
-* avoid loading all iframes on single page to improve load time
-* implement as Angular single page application
-* optimize theme
-* optimize for mobile devices
+## Future improvements:
+* Avoid loading all iframes on single page to improve load time
+* Implement as Angular single page application
+* Optimize theme
+* Optimize for mobile devices
