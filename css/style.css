@@ -55,6 +55,13 @@ h1.mainTitle {
     margin-top: 80px;
 }
 
+.subtitle {
+    margin-top: 20px;
+    color: rgb(167, 167, 167);
+    font-size: 0.7em;
+    /* font-family: 'Oswald', sans-serif; */
+}
+
 .flexContainer.selectCircuit {
     display: flex;
     height: 500px;
@@ -102,6 +109,10 @@ h1.mainTitle {
     height: 250px;
 }
 
+.sepia {
+    filter: sepia(100%);
+}
+
 /* ===================================================== */
 
 /* ===================================================== */
@@ -147,7 +158,12 @@ h1.mainTitle {
 /* ================================================== */
 
 .seperator {
-    margin: 100px 0 25px 0;
+    margin: 75px 0 25px 0;
+    border-bottom: .5px solid lightgrey;
+}
+
+.seperatorImg {
+    margin: 0px 0 25px 0;
     border-bottom: .5px solid lightgrey;
 }
 
@@ -192,6 +208,73 @@ article>h1.action {
 
 /* =================================================== */
 
+/* RACE CLASSIFICATION */
+
+/* CARDS */
+
+.raceClassFlexContainer {
+    display: flex;
+}
+
+.cardFastLap {
+    width: 250px;
+    height: 300px;
+    position: relative;
+}
+
+.iconbox_top {
+    float: none;
+    position: absolute;
+    left: 50%;
+    top: 18px;
+    margin: 0 0 0 -26px;
+    padding: 15px;
+    border-radius: 100px;
+    
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    font-size: 30px;
+    line-height: 34px;
+    background-color: rgb(221, 51, 51);
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+
+/* =================================================== */
+/* MODAL */
+
+.modal-content {
+    position: relative;
+}
+.modal-content h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+.modal-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    margin-left: 0px;
+}
+.textModal {
+    font-size: 1.1em;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+.modalImg {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+
+}
+#modalImg {
+    height: 40px;
+    opacity: .3;
+}
+/* =================================================== */
+
 /* SCROLLSPY */
 
 /* position fixed is actually not inside the aside (visually) */
@@ -201,7 +284,7 @@ article>h1.action {
     position: fixed;
     z-index: 1;
     /* Stay on top */
-    top: 45%;
+    top: 37%;
     right: 4%;
     /* right: 100px; */
     overflow-x: hidden;
@@ -477,12 +560,10 @@ ul>li>a>span {
     display: inline;
 }
 
-
 .hideMe {
     /* visibility: hidden; */
     display: none;
 }
-
 
 /* --------------------------------------------- */
 

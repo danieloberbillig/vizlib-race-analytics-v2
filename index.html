@@ -27,6 +27,31 @@
 </head>
 
 <body>
+
+    <!-- ------------------------------------------------------------------------- -->
+    <!-- MODAL  -->
+    <!-- Modal Trigger -->
+    <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modalImg">
+            <img id="modalImg" src="asset/image/c1logo.png" alt="c1 racing club">
+        </div>
+        <div class="modal-content">
+            <h4>This might take a while</h4>
+            <div class="textModal">
+                <p>Loading analytics in the background. Thank you for your patience.</p>
+                <p class="action">Please click 'OK' to proceed.</p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Ok</a>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------------------- -->
+
+
     <div class="gridContainer">
         <div class="gridItem-top">
 
@@ -233,19 +258,25 @@
 
                 <!-- </div> -->
             </article>
-
+            <!-- ======================================================================================== -->
+            <!-- PARALLAX -->
+            <article class="parallax-container">
+                <div class="parallax parallax_vizlib sepia">
+                    <img id="vizlibCompImg" src="asset/image/air.jpg" alt="Vizlib competition">
+                </div>
+            </article>
             <!-- ======================================================================================== -->
             <!-- 3) Driver performance -->
 
-            <div class="seperator">
+            <div class="seperatorImg">
                 <!-- layout seperator -->
             </div>
 
             <article id="consistentDriver" class="section scrollspy">
                 <h1 class="title">Driver performance consistency</h1>
                 <div class="progress">
-                        <div class="indeterminate"></div>
-                    </div>
+                    <div class="indeterminate"></div>
+                </div>
                 <ul id="tabs-swipe-demo" class="tabs">
                     <li class="tab col s3"><a class="active" href="#swipe-1">Chart</a></li>
                     <li class="tab col s3"><a href="#swipe-2">Details</a></li>
@@ -274,8 +305,8 @@
             <article id="fastestLap" class="section scrollspy">
                 <h1 class="title">Fastest lap per session</h1>
                 <div class="progress">
-                        <div class="indeterminate"></div>
-                    </div>
+                    <div class="indeterminate"></div>
+                </div>
                 <ul id="tabs-swipe-demo" class="tabs">
                     <li class="tab col s3"><a class="active" href="#swipe-fastest-1">Team</a></li>
                     <li class="tab col s3"><a href="#swipe-fastest-2">Driver</a></li>
@@ -337,35 +368,73 @@
                 </div>
             </article>
 
+            <!-- ======================================================================================== -->
+            <!-- 8) Race Classification -->
+            <!-- TODO: add animated cards containing vizlib boxes from sheet Race classification  -->
+            <div class="seperator">
+                <!-- layout seperator -->
+            </div>
+
+            <article id="raceClassification" class="section scrollspy">
+                <h1 class="title">Race classification</h1>
+                <div class="progress">
+                    <div class="indeterminate"></div>
+                </div>
+                <ul id="tabs-swipe-demo" class="tabs">
+                    <li class="tab col s3"><a class="active" href="#swipe-1-clas">Cards</a></li>
+                    <li class="tab col s3"><a href="#swipe-2-clas">Details</a></li>
+                </ul>
+                <div id="swipe-1-clas" class="col s12">
+                    <div class="raceClassFlexContainer">
+                        <section class="cardFastLap">
+                            <div class="iconbox_top">1st</div>
+                            <iframe
+                                src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=BrSAXj&opt=nointeraction&select=clearall'
+                                style='border:none;width:100%;height:100%;'></iframe>
+                        </section>
+                        <section class="cardFastLap">
+                            <div class="iconbox_top">2nd</div>
+                            <iframe
+                                src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=YbSJVSn&opt=nointeraction&select=clearall'
+                                style='border:none;width:100%;height:100%;'></iframe>
+                        </section>
+                        <section class="cardFastLap">
+                            <div class="iconbox_top">3rd</div>
+                            <iframe
+                                src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=JmYpab&opt=nointeraction&select=clearall'
+                                style='border:none;width:100%;height:100%;'></iframe>
+                        </section>
+                    </div>
+                </div>
+                <div id="swipe-2-clas" class="col s12">
+                    <iframe
+                        src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=6748cd48-7ab8-4f97-afe3-d750467ab441&select=clearall'
+                        style='border:none;width:100%;height:100%;'></iframe>
+                </div>
+
+            </article>
+
 
             <!-- ======================================================================================== -->
             <!-- PARALLAX -->
-
             <article class="parallax-container">
-                <div class="parallax parallax_vizlib">
-                    <img id="vizlibCompImg"
-                        src="https://home.vizlib.com/wp-content/uploads/2019/05/MOVE-FASTER-8.5x5.5-05.png"
-                        alt="Vizlib competition">
+                <div class="parallax parallax_vizlib sepia">
+                    <img id="vizlibCompImg" src="asset/image/crew.jpg" alt="Vizlib competition">
                 </div>
-                <!-- <img width="1248" height="1376"
-                    src="https://home.vizlib.com/wp-content/uploads/2019/05/MOVE-FASTER-8.5x5.5-05.png"
-                    class="vc_single_image-img attachment-full" alt=""
-                    srcset="https://home.vizlib.com/wp-content/uploads/2019/05/MOVE-FASTER-8.5x5.5-05.png 1248w, https://home.vizlib.com/wp-content/uploads/2019/05/MOVE-FASTER-8.5x5.5-05-272x300.png 272w, https://home.vizlib.com/wp-content/uploads/2019/05/MOVE-FASTER-8.5x5.5-05-768x847.png 768w, https://home.vizlib.com/wp-content/uploads/2019/05/MOVE-FASTER-8.5x5.5-05-929x1024.png 929w"
-                    sizes="(max-width: 1248px) 100vw, 1248px"> -->
             </article>
 
             <!-- ======================================================================================== -->
             <!-- 5) Pit stop analysis -->
 
-            <div class="seperator">
+            <div class="seperatorImg">
                 <!-- layout seperator -->
             </div>
 
             <article id="pitstop" class="section scrollspy">
                 <h1 class="title">Pit stop analysis</h1>
                 <div class="progress">
-                        <div class="indeterminate"></div>
-                    </div>
+                    <div class="indeterminate"></div>
+                </div>
                 <ul id="tabs-swipe-demo" class="tabs">
                     <li class="tab col s3"><a class="active" href="#swipe-1-pit">Driver changeover</a></li>
                     <li class="tab col s3"><a href="#swipe-2-pit">Pit stop timing</a></li>
@@ -374,17 +443,17 @@
                 <div id="swipe-1-pit" class="col s12">
                     <iframe
                         src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=b73fdadc-fff0-4fac-a3a6-61ac37086148&select=clearall'
-                        style='border:none;width:100%;height:100%;'></iframe>
+                        style='border:none;width:65%;height:100%;'></iframe>
                 </div>
                 <div id="swipe-2-pit" class="col s12">
                     <iframe
                         src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=3e4815f2-4135-4a1e-b6a8-d43217ff9fcb&select=clearall'
-                        style='border:none;width:100%;height:100%;'></iframe>
+                        style='border:none;width:75%;height:100%;'></iframe>
                 </div>
                 <div id="swipe-3-pit" class="col s12">
                     <iframe
                         src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=8aace642-ef01-43c5-aa76-f8fce5f5c80a&select=clearall'
-                        style='border:none;width:100%;height:100%;'></iframe>
+                        style='border:none;width:33%;height:100%;'></iframe>
                 </div>
 
             </article>
@@ -400,8 +469,8 @@
             <article id="safetycar" class="section scrollspy">
                 <h1 class="title">Safety car session</h1>
                 <div class="progress">
-                        <div class="indeterminate"></div>
-                    </div>
+                    <div class="indeterminate"></div>
+                </div>
                 <ul id="tabs-swipe-demo" class="tabs">
                     <li class="tab col s3"><a class="active" href="#swipe-1-saf">Chart</a></li>
                     <li class="tab col s3"><a href="#swipe-3-saf">Cars in pits & MPH</a></li>
@@ -425,38 +494,53 @@
                 </div>
 
             </article>
-
+            <!-- ======================================================================================== -->
+            <!-- PARALLAX -->
+            <article class="parallax-container">
+                <div class="parallax parallax_vizlib sepia">
+                    <img id="vizlibCompImg" src="asset/image/race.jpg" alt="Vizlib competition">
+                </div>
+            </article>
 
             <!-- ======================================================================================== -->
             <!-- 7) Position Analysis -->
 
-            <div class="seperator">
+            <div class="seperatorImg">
                 <!-- layout seperator -->
             </div>
 
             <article id="positionAnalysis" class="section scrollspy">
                 <h1 class="title">Position analysis</h1>
                 <div class="progress">
-                        <div class="indeterminate"></div>
-                    </div>
+                    <div class="indeterminate"></div>
+                </div>
                 <ul id="tabs-swipe-demo" class="tabs">
                     <li class="tab col s3"><a class="active" href="#swipe-1-pos">Chart</a></li>
                     <li class="tab col s3"><a href="#swipe-2-pos">Select start & finish</a></li>
                 </ul>
                 <div id="swipe-1-pos" class="col s12">
+                        <p class="subtitle">horinzontal x-axis: lap number, Lines: car number</p>
                     <iframe
                         src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=d5e39d07-e05b-4661-984c-db423100cbb3&select=clearall'
-                        style='border:none;width:100%;height:100%;'></iframe>
+                        style='border:none;width:100%;height:80%;'></iframe>
                 </div>
                 <div id="swipe-2-pos" class="col s12">
+                        <p class="subtitle">horinzontal x-axis: lap number, Lines: car number</p>
                     <iframe
                         src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&sheet=9a5aa1b4-aac7-4637-bd60-00dcabd01787&select=clearall'
                         style='border:none;width:100%;height:100%;'></iframe>
                 </div>
 
             </article>
-
-
+            <!-- ======================================================================================== -->
+            <!-- PARALLAX -->
+            <!-- <article class="parallax-container">
+                <div class="parallax parallax_vizlib">
+                    <img id="vizlibCompImg"
+                        src="https://home.vizlib.com/wp-content/uploads/2019/05/MOVE-FASTER-8.5x5.5-05.png"
+                        alt="Vizlib competition">
+                </div>
+            </article> -->
 
 
 
@@ -477,6 +561,7 @@
                 <li><a href="#sessionStats">Session statistics</a></li>
                 <li><a href="#consistentDriver">Driver performance</a></li>
                 <li><a href="#fastestLap">Fastest lap</a></li>
+                <li><a href="#raceClassification">Race classification</a></li>
                 <li><a href="#pitstop">Pit stop</a></li>
                 <li><a href="#safetycar">Safety car session</a></li>
                 <li><a href="#positionAnalysis">Position analysis</a></li>
