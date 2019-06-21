@@ -124,10 +124,6 @@ h1.mainTitle {
     width: 800px;
 }
 
-.fastestLap {
-    /* height: 1900px; */
-    /* width: 800px; */
-}
 
 .flexContainer-stats-1 {
     display: flex;
@@ -193,12 +189,8 @@ article>h1.action {
     font-size: 1.8em;
     padding: 0 0 0 10px;
     color: darkred;
-    /* like qlik objects  */
 }
 
-.collapsible-header {
-    /* width: 400px; */
-}
 
 .collapsible-body {
     padding: 0;

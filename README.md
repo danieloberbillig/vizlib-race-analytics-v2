@@ -4,7 +4,9 @@
 * Author: Daniel Oberbillig
 * Started: 11/June/2019
 
-## Screenshot (status 14/June/2019)
+## Screenshot
+![start](/asset/screenshots/Vizlib_race_competition.gif?raw=true "Start")
+---
 ![start](/asset/screenshots/Slide2.PNG?raw=true "Start")
 ---
 ![start](/asset/screenshots/Slide3.PNG?raw=true "Start")
@@ -44,7 +46,7 @@
 ![start](/asset/screenshots/Slide9.PNG?raw=true "Start")
 
 ---
-## ToDo / Outlook:
+## To do / Outlook:
 * avoid loading all iframes on single page to improve load time
 * implement as Angular single page application
 * optimize theme
