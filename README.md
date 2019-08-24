@@ -1,3 +1,4 @@
+# V2 Revised Version after feedback from Qlik
 # MOVE FASTER - Vizlib Race Analytics Championship
 Vizlib Race competition entry submission 21st June 2019 
 
