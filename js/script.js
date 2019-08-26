@@ -67,3 +67,8 @@ function myFunction() {
 $('.progress').delay(15000).queue(function () {
   $(this).addClass("hideMe");
 });
+
+
+
+// hide content and scrollspy if no circuit and no race selected
+// class .hideAllIfNoRaceSelected -> change property from none to inherit

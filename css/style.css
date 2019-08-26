@@ -92,6 +92,16 @@ h1.mainTitle {
     color: grey;
 }
 
+
+
+/* hide all content if no circuit and session is selected */
+.hideAllIfNoRaceSelected, .hideAllIfNoRaceSelected * {
+    display: none;
+}
+
+
+
+
 /* ===================================================== */
 
 /* PARALLAX VIZLIB */
