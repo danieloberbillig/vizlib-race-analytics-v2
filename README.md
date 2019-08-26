@@ -2,6 +2,17 @@
 # MOVE FASTER - Vizlib Race Analytics Championship
 Vizlib Race competition entry submission 21st June 2019 
 
+## Latest changes
+### TODO:
+- Position Analysis: remove tabs: bug: it resizes to supersmall chart
+- Pit stop: added Car number as list box on right side
+
+### 26/-8/2019
+- Position Analysis: remove first chart, remove tabs (one chart only)
+- Pit stop analysis: might not work with car number filter -> whats the logic?
+- Session statistics: flag corrected
+- Added calculation condition (min 1 race and session selected) and error message on each chart
+
 ## Preview
 ![start](/asset/screenshots/Vizlib_race_competition.gif?raw=true "Start")
 ---
@@ -88,3 +99,5 @@ This project is licensed under the MIT License.
 * Implement as Angular single page application
 * Optimize theme
 * Optimize for mobile devices
+
+

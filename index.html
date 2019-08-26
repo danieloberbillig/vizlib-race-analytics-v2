@@ -192,7 +192,7 @@
             <!-- 1) Select circuit & race -->
 
             <article id="selectCircuit" class="section scrollspy">
-                <h1 class="action">Please select a circuit and session.</h1>
+                <h1 class="action">Please select one circuit and one session.</h1>
 
                 <div class="progress">
                     <div class="indeterminate"></div>
@@ -440,7 +440,11 @@
                     <li class="tab col s3"><a href="#swipe-2-pit">Pit stop timing</a></li>
                     <li class="tab col s3"><a href="#swipe-3-pit">Total stop time by car</a></li>
                 </ul>
+                
                 <div id="swipe-1-pit" class="col s12">
+                    <iframe src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=qxDeu&select=clearall' 
+                    style='border:none;width:10%;height:100%;'></iframe>
+                    
                     <iframe
                         src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=b73fdadc-fff0-4fac-a3a6-61ac37086148&select=clearall'
                         style='border:none;width:65%;height:100%;'></iframe>
@@ -514,17 +518,18 @@
                 <div class="progress">
                     <div class="indeterminate"></div>
                 </div>
+                
                 <ul id="tabs-swipe-demo" class="tabs">
-                    <li class="tab col s3"><a class="active" href="#swipe-1-pos">Chart</a></li>
-                    <li class="tab col s3"><a href="#swipe-2-pos">Select start & finish</a></li>
-                </ul>
-                <div id="swipe-1-pos" class="col s12">
+                    <!-- <li class="tab col s3"><a class="active" href="#swipe-1-pos">Chart</a></li> -->
+                    <li class="tab col s3"><a class="active" href="#swipe-1-pos">Select start & finish</a></li>
+                </ul> 
+                 <!-- <div id="swipe-1-pos" class="col s12">
                         <p class="subtitle">horinzontal x-axis: lap number | lines: car number</p>
                     <iframe
                         src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=d5e39d07-e05b-4661-984c-db423100cbb3&select=clearall'
                         style='border:none;width:100%;height:80%;'></iframe>
-                </div>
-                <div id="swipe-2-pos" class="col s12">
+                </div> -->
+                <div id="swipe-1-pos" class="col s12">
                         <p class="subtitle">horinzontal x-axis: lap number, Lines: car number</p>
                     <iframe
                         src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&sheet=9a5aa1b4-aac7-4637-bd60-00dcabd01787&select=clearall'
@@ -557,7 +562,7 @@
             <!-- <aside id="scrollspy" class="col hide-on-small-only m3 l2"> -->
             <ul class="section table-of-contents">
                 <li><a href="#start">Start</a></li>
-                <li><a href="#selectCircuit">Select race</a></li>
+                <li><a href="#selectCircuit">Select circuit, session</a></li>
                 <li><a href="#sessionStats">Session statistics</a></li>
                 <li><a href="#consistentDriver">Driver performance</a></li>
                 <li><a href="#fastestLap">Fastest lap</a></li>
