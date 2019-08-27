@@ -161,7 +161,7 @@
 
             <div class="row"></div>
             <h1 class="mainTitle section scrollspy" id="start">Race Analysis</h1>
-            <img id="companyLogosRow" src="asset/image/raceAnalyticsLogos_row.png">
+            <img id="companyLogosRow" src="asset/image/raceAnalyticsLogos_row4.png">
 
 
             <!-- ================================================================ -->
@@ -223,7 +223,7 @@
 
 
             <!-- HIDE ALL CONTENT IF NO CIRCUIT AND SESSION SELECTED -->
-            <section class="hideAllIfNoRaceSelected">
+            <!-- <section class="hideAllIfNoRaceSelected"> -->
 
 
 
@@ -337,7 +337,7 @@
 
                     <div id="swipe-fastest-4" class="col s12">
                         <ul class="collapsible">
-                            <li>
+                            <li class="active">
                                 <div class="collapsible-header"><i class="material-icons">group</i>Team</div>
                                 <div class="collapsible-body"><span>
                                         <iframe
@@ -446,6 +446,7 @@
                     </ul>
 
                     <div id="swipe-1-pit" class="col s12">
+                        <!-- Car# filter -->
                         <iframe
                             src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=qxDeu&select=clearall'
                             style='border:none;width:10%;height:100%;'></iframe>
@@ -486,9 +487,14 @@
                         <li class="tab col s3"><a href="#swipe-2-saf">Detail</a></li>
                     </ul>
                     <div id="swipe-1-saf" class="col s12">
+                        <!-- Car# filter -->
+                        <iframe
+                            src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=qxDeu&select=clearall'
+                            style='border:none;width:15%;height:100%;'></iframe>
+
                         <iframe
                             src='http://localhost:4848/single/?appid=C%3A%5CUsers%5CDaniel%5CDocuments%5CQlik%5CSense%5CApps%5CC1%20Racing%20Club%20-%20Vizlib.qvf&obj=sqfvKmC&select=clearall'
-                            style='border:none;width:100%;height:100%;'></iframe>
+                            style='border:none;width:65%;height:100%;'></iframe>
                     </div>
                     <div id="swipe-3-saf" class="col s12">
                         <iframe
@@ -557,12 +563,12 @@
                 <!-- END CONTENT BLOCK -->
         </div>
         <!-- hide all content if no circuit and session selected .hideAllIfNoRaceSelected-->
-        </section>
+        <!-- </section> -->
     </div>
     <!-- GRID ITEM - MAIN END -->
 
     <!-- actually position:fixed is not inside the aside grid item -->
-    <div class="gridItem-aside hideAllIfNoRaceSelected">
+    <div class="gridItem-aside">
         <!-- SCROLLSPY ELEMENT -->
         <aside id="scrollspy">
             <!-- <aside id="scrollspy" class="col hide-on-small-only m3 l2"> -->
