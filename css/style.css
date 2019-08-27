@@ -293,6 +293,26 @@ article>h1.action {
     /*Disable horizontal scroll */
 }
 
+
+
+/* Car Filter left thin, Chart right broad */
+/* SAFETY CAR POSITION  and PIT STOP  and DRIVER PERFORMANCE*/
+.flexContainer-filterChart {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 500px;
+    width: 800px;
+}
+
+.ItemFilter {
+    width: 150px;
+    height: 350px;
+}
+
+.ItemChart {
+    width: 650px;
+}
+
 /* =================================================== */
 
 /* NOT WORKING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
