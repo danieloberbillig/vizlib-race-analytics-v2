@@ -70,6 +70,17 @@ h1.mainTitle {
     width: 800px;
 }
 
+
+.posAnalysis {
+    /* display: flex; */
+    height: 500px;
+    /* background-color: grey;  */
+    /* flex-flow: row nowrap; */
+    width: 800px;
+}
+
+
+
 /* for thin filter */
 
 .filter-1 {
