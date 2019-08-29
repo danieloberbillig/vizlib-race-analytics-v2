@@ -368,7 +368,7 @@ html, body, .pushpinElm {
     z-index: 1;
     background-color: grey;
     overflow: hidden;
-    height: 38px;
+    height: 39px;
     max-width: 100%;
     /* border-radius: 10px; */
     background-color: rgb(75, 68, 68);
