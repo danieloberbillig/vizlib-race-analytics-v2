@@ -12,7 +12,7 @@
 
 .do-standard-footer h1 {
     font-size: 0.7em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .do-standard-footer h2 {
@@ -70,13 +70,17 @@
     flex: 1;
 }
 
+
 .col3 {
     grid-area: "col3";
     margin-right: 9%;
     margin-top: 8px;
-    
-
     /* flex: 1; */
+}
+
+.col3 .svg-container {
+    height: 20px;
+    width: 100px;
 }
 
 /* .col4 {
@@ -106,8 +110,8 @@
 
 .col1 p {
     margin-top: 1em;
-    font-size: 0.5em;
-    line-height: 15px;
+    font-size: .6em;
+    line-height: 0px;
 }
 
 .col1 .socialMedia {
@@ -127,6 +131,12 @@
     text-align: left;
     font-size: 0.7em;
 }
+
+span #myName {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
 .portrait {
     height: 60px;
