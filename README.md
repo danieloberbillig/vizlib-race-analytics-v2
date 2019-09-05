@@ -1,12 +1,12 @@
 # MOVE FASTER - Vizlib Race Analytics Championship
-# v2 Revised Version
+v2 Revised Version
 Vizlib Race competition 2019 
 
-## Latest changes
 
 ## Preview Video
 ![start](/asset/screenshots/Vizlib_race_competition.gif?raw=true "Start")
----
+
+
 ## Screenshot
 ![start](/asset/screenshots/race_v2_1.PNG?raw=true "Start")
 ---
@@ -61,7 +61,7 @@ index.html
 
 ## Authors
 
-* **Daniel Oberbillig** - [Daniel Oberbillig BI Development](http://danieloberbillig.com/)
+* Daniel Oberbillig - [Daniel Oberbillig BI Development](http://danieloberbillig.com/)
 
 
 ## License
