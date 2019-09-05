@@ -1,27 +1,15 @@
-# V2 Revised Version after feedback from Qlik
 # MOVE FASTER - Vizlib Race Analytics Championship
-Vizlib Race competition entry submission 21st June 2019 
+# v2 Revised Version
+Vizlib Race competition 2019 
 
 ## Latest changes
-### TODO:
-- Position Analysis: remove tabs: bug: it resizes to supersmall chart
-- Pit stop: added Car number as list box on right side
 
-### 26/-8/2019
-- Position Analysis: remove first chart, remove tabs (one chart only)
-- Pit stop analysis: might not work with car number filter -> whats the logic?
-- Session statistics: flag corrected
-- Added calculation condition (min 1 race and session selected) and error message on each chart
-
-## Preview
+## Preview Video
 ![start](/asset/screenshots/Vizlib_race_competition.gif?raw=true "Start")
 ---
 ## Screenshot
-![start](/asset/screenshots/Slide2.PNG?raw=true "Start")
+![start](/asset/screenshots/race_v2_1.PNG?raw=true "Start")
 ---
-![start](/asset/screenshots/Slide3.PNG?raw=true "Start")
----
-![start](/asset/screenshots/Slide4.PNG?raw=true "Start")
 
 
 ## Getting Started
@@ -83,15 +71,17 @@ This project is licensed under the MIT License.
 
 ---
 ## More screenshots
-![start](/asset/screenshots/Slide5.PNG?raw=true "Start")
+![start](/asset/screenshots/race_v2_2.PNG?raw=true "Start")
 ---
-![start](/asset/screenshots/Slide6.PNG?raw=true "Start")
+![start](/asset/screenshots/race_v2_3.PNG?raw=true "Start")
 ---
-![start](/asset/screenshots/Slide7.PNG?raw=true "Start")
+![start](/asset/screenshots/race_v2_4.PNG?raw=true "Start")
 ---
-![start](/asset/screenshots/Slide8.PNG?raw=true "Start")
+![start](/asset/screenshots/race_v2_5.PNG?raw=true "Start")
 ---
-![start](/asset/screenshots/Slide9.PNG?raw=true "Start")
+![start](/asset/screenshots/race_v2_6.PNG?raw=true "Start")
+---
+![start](/asset/screenshots/race_v2_7.PNG?raw=true "Start")
 
 ---
 ## Future improvements:
